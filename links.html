@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links in HTML</title>
+</head>
+<body>
+    <!-- Links are of two type:
+    1=> Absolute links(The links that are not in the same website or same web page) 
+    2=> Realtive links(The links that are in the same website or same page or we can say the links within the website/webpage) -->
+    <h1>
+        Welcome to the link.html document.
+    </h1>
+    <p>
+        Here i am adding link of various social media sites. By clicking on any one of them you can easily get into it or you can easily access it.
+    </p>
+    <h3>
+        Facebook:
+    </h3>
+    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+    <br>
+    <h3>
+        instagram:
+    </h3>
+    <a href="https://instagram.com">Instagram</a>
+    <br>
+    <h3>
+        Twitter:
+    </h3>
+    <a href="https://twitter.com">Twitter</a>
+    <br>
+    <h3>
+        Snapchat:
+    </h3>
+    <a href="https://snapchat.com">Snapchat</a>
+    <br>
+    <!-- Links within the image(images as a link) -->
+    <!-- for this we can add an image tag <img> inside the anchor tag <a> -->
+        <h2>
+            Image as a link
+        </h2>
+        <p> Click on the photo to get into my facebook page</p>
+    <a href="https://facebook.com" target="_blank">
+        <img src="/images/photo2.jpg" alt="M. Waseem's Photo"
+        style="width: 200px; height: auto;"
+        >
+    </a>
+    <br>
+    <h3>
+        Instagram:
+    </h3>
+    <a href="https://instagram.com" target="_blank">
+        <img src="/images/instagram.png" alt="Instagram"
+        style="width: 50px;">
+    </a>
+    <h3>
+        Facebook:
+    </h3>
+    <a href="https://facebook.com" target="_parent">
+        <img src="/images/facebook.png" alt="Facebook"
+        style="width: 50px;">
+    </a>
+    <h3>
+        Twitter:
+    </h3>
+    <a href="https://twitter.com" target="_blank">
+        <img src="/images/twitter.png" alt="Twitter"
+        style="width: 50px;">
+    </a>
+    <h3>
+        Youtube:
+    </h3>
+    <a href="https://youtube.com" target="_blank">
+        <img src="/images/youtube.png" alt="Youtube"
+        style="width: 50px;">
+    </a>
+    <br>
+    <br>
+    <h3>
+        Link to an email
+    </h3>
+    <!-- Link to an email -->
+    <!-- In this we use mailto: inside the href attribute to create a link that opens the email which we use there. -->
+    <!-- <a href="mailto:youremail"> content </a> -->
+    <a href="mailto:muhammadwaseem046736@gmail.com">
+        Email
+    </a>
+    <br>
+    <br>
+    <p>
+        Send <a href="mailto:muhammadwaseem046736@gmail.com">Email
+        </a>
+        Here.
+    </p>
+    <br>
+    <br>
+    <h3>
+        Link to the button
+    </h3>
+    <p>
+        Click to one of the button to get to the facebook.
+    </p>
+    <button>
+        <a href="https://facebook.com" target="_blank">Click Here</a>
+    </button>
+    <br>
+    <br>
+    <!-- Another Method -->
+    <!-- <button onlick=document.location="URL"> Content or button name </button> -->
+    <button onclick=document.location="//facebook.com" target="_blank">
+        Click Here
+    </button>
+</body>
+</html>
